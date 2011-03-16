@@ -2,7 +2,7 @@
 
 namespace nothinbutdotnetstore.web.application
 {
-    public interface Repository
+    public interface DepartmentRepository
     {
         IEnumerable<Department> get_main_departments();
     }
