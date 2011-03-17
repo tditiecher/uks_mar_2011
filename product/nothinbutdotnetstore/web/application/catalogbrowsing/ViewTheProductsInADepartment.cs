@@ -26,6 +26,8 @@ namespace nothinbutdotnetstore.web.application.catalogbrowsing
 
         public void process(Request request)
         {
+            //rendering_gateway.render(product_repository.get_the_products_in(request.map<Department>()));
+
             rendering_gateway.render(retrieve(product_repository.get_the_products_in, request.map<Department>()));
         }
 
