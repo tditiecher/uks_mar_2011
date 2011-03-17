@@ -119,6 +119,7 @@
     <Compile Include="StubSpecs.cs" />
     <Compile Include="UrlFilterSpecs.cs" />
     <Compile Include="utility\ObjectFactory.cs" />
+    <Compile Include="utility\ObjectFactorySpecs.cs" />
     <Compile Include="ViewReportModelSpecs.cs" />
     <Compile Include="ViewTheDepartmentsInADepartmentSpecs.cs" />
     <Compile Include="ViewTheMainDeparmentsInTheStoreSpecs.cs" />
