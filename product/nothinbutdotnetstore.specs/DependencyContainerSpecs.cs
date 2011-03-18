@@ -51,6 +51,7 @@ namespace nothinbutdotnetstore.specs
             Establish c = () =>
             {
                 the_inner_exception = new Exception();
+                dependencies.setup(x => x.get_factory_that_can_create(typeof(CreatedItem))).Return(item_factory);
                 item_factory.setup(x => x.create()).Throw(the_inner_exception);
             };
 
